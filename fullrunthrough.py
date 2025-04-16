@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 
 # Set random seed for reproducibility
 np.random.seed(42)
