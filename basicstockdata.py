@@ -5,7 +5,7 @@ import datetime
 from sklearn.decomposition import PCA
 
 # -----------------------
-# 1) Download price data
+# 1) Download price data 
 # -----------------------
 tickers = [
     "AAPL", "MSFT", "AMZN", "NVDA", "GOOGL",

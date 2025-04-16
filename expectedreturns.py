@@ -1,5 +1,5 @@
 import yfinance as yf
-import requests
+import requests 
 
 # Function to get the risk-free rate (US 10-Year Treasury yield)
 def get_risk_free_rate():
