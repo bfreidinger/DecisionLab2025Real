@@ -291,19 +291,15 @@ print("Correlation Matrix")
 sns.heatmap(corr_df_rounded, annot=True, cmap="coolwarm", fmt=".2f")
 plt.show()
 
-print("Expected Returns")
-display(mu_df)
-print("Daily Standard Deviations")
-display(stds_df)
-print("Portfolio Weights")
-display(weights_df)
+#print("Expected Returns")
+#display(mu_df)
+#print("Daily Standard Deviations")
+#display(stds_df)
+#print("Portfolio Weights")
+#display(weights_df)
 
 # %% [markdown]
 # ## MOSEK Portfolio Optimization
-
-# %%
-%%capture
-!pip install mosek
 
 # %%
 import os
